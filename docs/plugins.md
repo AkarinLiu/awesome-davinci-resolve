@@ -16,7 +16,7 @@
 
 ![Stars](https://img.shields.io/github/stars/gyroflow/gyroflow-plugins)
 ![Forks](https://img.shields.io/github/forks/gyroflow/gyroflow-plugins)
-![Downloads](https://img.shields.io/github/downloads/gyroflow/gyroflow-plugins/total)
+[![Downloads](https://img.shields.io/github/downloads/gyroflow/gyroflow-plugins/total)](https://github.com/gyroflow/gyroflow-plugins/releases)
 ![License](https://img.shields.io/github/license/gyroflow/gyroflow-plugins)
 
 ## JKL
