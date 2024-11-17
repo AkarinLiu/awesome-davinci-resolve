@@ -1,4 +1,4 @@
-# 所有插件 
+# 所有插件
 
 按照项目首字母排序
 请善用 Ctrl+F 查找
@@ -11,13 +11,13 @@
 
 ## GHI
 
-### [Gyroflow](https://github.com/gyroflow/gyroflow.git)
+### [Gyroflow](https://github.com/gyroflow/gyroflow-plugins.git)
 > 一个非常强大的视频稳定插件。
 
-![Stars](https://img.shields.io/github/stars/gyroflow/gyroflow)
-![Forks](https://img.shields.io/github/forks/gyroflow/gyroflow)
+![Stars](https://img.shields.io/github/stars/gyroflow/gyroflow-plugins)
+![Forks](https://img.shields.io/github/forks/gyroflow/gyroflow-plugins)
 ![Downloads](https://img.shields.io/github/downloads/gyroflow/gyroflow/total)
-![License](https://img.shields.io/github/license/gyroflow/gyroflow)
+![License](https://img.shields.io/github/license/gyroflow/gyroflow-plugins)
 
 ## JKL
 
