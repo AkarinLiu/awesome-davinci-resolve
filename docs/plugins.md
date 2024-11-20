@@ -11,13 +11,13 @@
 
 ## GHI
 
-### [Gyroflow](https://github.com/gyroflow/gyroflow-plugins.git)
+### [Gyroflow](https://github.com/gyroflow/gyroflow.git)
 > 一个非常强大的视频稳定插件。
 
-![Stars](https://img.shields.io/github/stars/gyroflow/gyroflow-plugins)
-![Forks](https://img.shields.io/github/forks/gyroflow/gyroflow-plugins)
+![Stars](https://img.shields.io/github/stars/gyroflow/gyroflow)
+![Forks](https://img.shields.io/github/forks/gyroflow/gyroflow)
 [![Downloads](https://img.shields.io/github/downloads/gyroflow/gyroflow-plugins/total)](https://github.com/gyroflow/gyroflow-plugins/releases)
-![License](https://img.shields.io/github/license/gyroflow/gyroflow-plugins)
+![License](https://img.shields.io/github/license/gyroflow/gyroflow)
 
 ## JKL
 
