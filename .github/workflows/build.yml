@@ -4,6 +4,8 @@ on:
     push:
         branches:
             - main
+permissions:
+    contents: write
 
 jobs:
     build:
@@ -25,8 +27,8 @@ jobs:
               run: npm run docs:build
 
             - name: Deploy to GitHub Pages
-              uses: JamesIves/github-pages-deploy-action@4.3.3
+              uses: JamesIves/github-pages-deploy-action@v4
               with:
                   GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
-                  BRANCH: gh-pages # The branch the action should deploy to.
+                  BRANCH: build # The branch the action should deploy to.
                   FOLDER: docs/.vuepress/dist # The folder the action should deploy.
