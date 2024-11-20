@@ -1,4 +1,4 @@
-name: Deploy to Aliyun OSS
+name: Deploy to GitHub Pages
 
 on:
     push:
@@ -24,11 +24,8 @@ jobs:
             - name: build
               run: npm run docs:build
             
-            - name: Deploy to SFTP
-              uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+            - name: Deploy to GitHub Pages
+              uses: actions/gh-pages@v3
               with:
-                  username: ${{ secrets.SFTP_USERNAME }}
-                  ssh_private_key: ${{ secrets.SFTP_PRIVATE_KEY }}
-                  server: ${{ secrets.SFTP_SERVER }}
-                  remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
-                  local_path: ./docs/.vitepress/dist
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: ./docs/.vuepress/dist
