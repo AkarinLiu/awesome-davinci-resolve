@@ -31,5 +31,7 @@ jobs:
               with:
                   target_branch: gh-pages
                   build_dir: docs/.vitepress/dist
+                  jekyll: 'false'
+                  fqdn: adr.akarinliu.com
               env:
                   GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
